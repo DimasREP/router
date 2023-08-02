@@ -1,5 +1,5 @@
 <template>
-    <h1>Kategori</h1>
+   <center><h1>Kategori</h1>
     <div class="flex-container">
       <div v-for="kategori in kategoriData" :key="kategori.id" class="card">
         <img :src="getImgSrc(kategori.img)" alt="Category Image" />
@@ -8,6 +8,7 @@
       </router-link>
       </div>
     </div>
+  </center>
   </template>
   
   <script>

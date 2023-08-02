@@ -1,5 +1,5 @@
 <template>
-<h1>Daftar Produk {{ NamaKategori }}</h1>
+<center><h1>Daftar Produk {{ NamaKategori }}</h1>
   <div class="flex-container">
       <div v-for="produk in data" :key="produk.id" class="card">
         <img :src="getImgSrc(produk.img)" alt="Category Image" />
@@ -8,6 +8,7 @@
       </router-link>
   </div>
   </div>
+</center>
 </template>
 <script>
 import { computed } from 'vue';

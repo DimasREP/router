@@ -6,6 +6,8 @@
 <div v-else>
   <img :src="getImgSrc(detail.img)" alt="Category Image" />
   <h1>Detail {{ detail.nama }}</h1>
+  <h3><b>Deskripsi : </b></h3>
+  <p>{{ detail.des }}</p>
   <h4>Harga : {{ detail.harga }}</h4>
 </div>
 </center>

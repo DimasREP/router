@@ -2,8 +2,9 @@ export const produk = {
     'produk': [
       {
         'id': 1,
-        'nama': 'Handphone',
+        'nama': 'Handphone ',
         'harga': 'Rp. 1.000.000,00',
+        'des' : 'Handphone ini cocok untuk anda yang bermain epep di jamin jago jamsut',
         'id_kategori': 1,
         'img' : 'hp.jpeg'
       },

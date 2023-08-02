@@ -1,5 +1,5 @@
 <template>
-  <h1>Produk</h1>
+  <center><h1>Produk</h1>
   <div class="flex-container">
     <div v-for="produk in state" :key="produk.id" class="card">
      <center> <img :src="getImgSrc(produk.img)" alt="Category Image" /> </center>
@@ -8,6 +8,7 @@
     </router-link>
     </div>
   </div>
+</center> 
 </template>
 
 <script>
