@@ -2,6 +2,7 @@
 <h1>Daftar Produk {{ NamaKategori }}</h1>
   <div class="flex-container">
       <div v-for="produk in data" :key="produk.id" class="card">
+        <img :src="getImgSrc(produk.img)" alt="Category Image" />
       <router-link class="container" :to="{ name : 'Detail', params:{id_produk : produk.id}}">
           <h4>{{produk.nama }}</h4>
       </router-link>
@@ -29,13 +30,17 @@ export default {
       const NamaKategori = computed(() => {
         const foundKategori = kategori.kategori.find((kat) => kat.id == props.id_kategori)
         return foundKategori ? foundKategori.nama : ''
-      })
+      });
+      const getImgSrc = (imgFileName) => {
+        return "../src/assets/img/" + imgFileName + '';
+      };
       
       
       return{
           detail,
           data,
-          NamaKategori
+          NamaKategori,
+          getImgSrc,
           
 
       }

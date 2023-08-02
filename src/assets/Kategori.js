@@ -9,19 +9,22 @@ export const kategori = {
       {
         'id': 2,
         'nama': 'Otomotif',
-        'img' : ''
+        'img' : 'gambar2.jpeg'
       },
       {
         'id': 3,
         'nama': 'Olahraga',
+        'img' : 'gambar3.webp'
       },
       {
         'id': 4,
         'nama': 'Alat Masak',
+        'img' : 'gambar4.jpeg'
       },
       {
         'id': 5,
-        'nama': 'Produk Pria',
+        'nama': 'Kesehatan',
+        'img' : 'gambar5.jpeg'
       },
     ],
   };

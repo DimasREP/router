@@ -6,6 +6,7 @@ import Produk from "@/view/Produk.vue"
 import Detail from "@/view/Detail.vue"
 import Kategori from "@/view/Kategori.vue"
 import KategoriProduk from "@/view/KategoriProduk.vue"
+import NotFound from "@/view/NotFound.vue"
 
 const routes = [ 
   {
@@ -44,6 +45,11 @@ const routes = [
     name: "KategoriProduk",
     component: KategoriProduk,
     props: true,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: NotFound
   }
 ];
 
