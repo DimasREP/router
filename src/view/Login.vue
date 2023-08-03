@@ -21,9 +21,16 @@
 
 <script>
 import { users } from '../assets/user';
+import {onMounted} from 'vue'
 
 export default {
-    data() {
+    setup(props, context) {
+        onMounted(() => {
+            context.emit('id-menu', 6)
+        })
+ },
+ 
+ data() {
         return {
             username: '',
             password: '',
