@@ -12,7 +12,7 @@ export const produk = {
         'id': 2,
         'nama': 'Laptop',
         'harga': 'Rp. 5.000.000,00',
-        'id_kategori': 1,
+        'id_kategori': 1 ,
         'img' : 'laptop.jpeg'
       },
       {

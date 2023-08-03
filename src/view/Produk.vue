@@ -8,7 +8,7 @@
     </router-link>
     </div>
   </div>
-</center> 
+</center>       
 </template>
 
 <script>
