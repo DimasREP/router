@@ -1,5 +1,8 @@
 <template>
-  <h1>Contact</h1>
+  <center>
+    <br>
+  <h1><b>CONTACT</b></h1>
+</center>
 </template>
 
 <script>

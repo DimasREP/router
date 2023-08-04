@@ -1,5 +1,7 @@
 <template>
-  <center><h1>Produk</h1>
+  <br>
+  <center><h1><b>PRODUK</b></h1>
+    <br>
   <div class="flex-container">
     <div v-for="produk in state" :key="produk.id" class="card">
      <center> <img :src="getImgSrc(produk.img)" alt="Category Image" /> </center>

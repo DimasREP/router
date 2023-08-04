@@ -1,5 +1,7 @@
 <template>
-   <center><h1>Kategori</h1>
+  <br>
+   <center><h1><b>KATEGORI</b></h1>
+    <br>
     <div class="flex-container">
       <div v-for="kategori in kategoriData" :key="kategori.id" class="card">
         <img :src="getImgSrc(kategori.img)" alt="Category Image" />

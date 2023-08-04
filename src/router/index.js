@@ -6,6 +6,8 @@ import Produk from "@/view/Produk.vue"
 import Detail from "@/view/Detail.vue"
 import Kategori from "@/view/Kategori.vue"
 import KategoriProduk from "@/view/KategoriProduk.vue"
+import Counter from "@/view/Counter.vue"
+import Todo from "@/view/Todos.vue"
 
 import NotFound from "@/view/NotFound.vue"
 import Login from "@/view/Login.vue"
@@ -65,11 +67,21 @@ const routes = [
     props: true
   },
   {
+    path: "/counter",
+    name: "Counter",
+    component: Counter,
+},
+{
+  path: "/todo",
+  name: "Todo",
+  component: Todo,
+ },
+  {
     path: "/:pathMatch(.*)*",
     name: "NotFound",
     component: NotFound
   },
-  {}
+ 
 ];
 
 const router = createRouter({
